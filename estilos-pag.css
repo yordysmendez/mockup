@@ -1,0 +1,127 @@
+{box-sizing: border-box;}
+
+/*fondo de pagina*/
+body {background-color: black;
+    background-image: url("bg_02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+        /*contenedor principal*/
+div {margin-left: 100px;
+        margin-right: 470;}    
+        width: 820px;
+        height: 1100px;
+        background-color: black;}
+        
+
+        /*este es mi header*/
+header {width: 720px;
+        height: 125px;
+        background-color: black;
+       }
+
+        /*links del nav*/
+Header nav a {color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                border-bottom: yellow 3px solid;
+                margin-right: 5px;
+                margin-top: 25px;
+                padding-right: 5;
+                padding-bottom: 3px;
+                transition: 1s;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;}
+
+header img {float: left;}
+
+header nav {background-color: black;}
+        
+        /*cambia al posicionarse*/
+header nav a:hover {color: yellow;}
+
+        /*nav después de la imagen del banner ojo
+        */
+
+header nav img {margin-top: 20px;
+                margin-right: 30px;}
+
+#navdos {width: 720;
+                height: 32px;
+                background-color: #2c2c2c;
+                }
+
+nav a {color: green;
+        float: left;
+        margin-left: 30px;
+        margin-top: 6px;}
+nav p {color: white;
+        margin-right: 20px;
+        margin-top: 6px;
+        float: right;} 
+
+.centrado1 {color: green;
+        float: left;
+        margin-top: 6px;
+        margin-inline-start: 15px;
+        margin-inline-end: 10px;}
+
+        /*AQUI INICIA EL SECTION*/
+
+section {width: 470px;
+        height: auto;
+        float: left;
+        background-color: black;}
+
+/* titulos*/
+
+section h1, h3 {color: yellow;
+                padding-left: 20px;
+                padding-right: 17px;}
+
+section article {border-bottom: 4px solid red;
+                margin-right: 50px;}
+
+h6 {color: rgd (199, 199, 197);}
+
+article p {color: white;}
+
+aside {width: 380px;
+        height: 2000px;
+        margin-top: 7px;
+        margin-right: 30px;
+        background: black;
+        float: left;
+        background: black;
+        }
+
+aside img {width: 350px;
+        height: 200
+        margin-top 15px;
+        margin-left: 10px;}
+
+.colores {border-bottom: 2px rgb (60, 61, 60) dashed; 
+        margin-top: 15px;
+        padding-bottom: 10px;}
+
+.vermap {color: yellow;
+        margin-left: 30px;
+        float: left;}
+
+.video {color: white;
+        margin-left: 50px;
+        margin-right: 30px;
+        float: right;}
+
+footer {width: 820px;
+        height: 32px;
+        clear: both;
+        background-color: black;}
+
+footer p {font-size: 12px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 30px;
+        margin-left: 10px;
+        float: left;}
